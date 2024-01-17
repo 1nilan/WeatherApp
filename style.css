@@ -1,0 +1,125 @@
+body {
+    background-image: url("assets/pexels-muffin-creatives-1646332.jpg") ;
+    background-size: cover;
+    color: #fff;
+    font-family: cursive;
+    backdrop-filter: blur(5px);
+}
+
+.title {
+    text-align: center;
+    margin-top: 3%;
+}
+
+.user-interface {
+    text-align: center;
+}
+
+#location-input {
+    padding: 10px;
+    width: 60%;
+    border: none;
+    border-radius: 10px;
+    color: black;
+}
+
+#clock {
+
+    font-size: 100px;
+    text-align: center;
+    margin-top: 10%;
+}
+
+#search-button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#tbl{
+    margin-top: 8%;
+    margin-left: 4%;
+    
+}
+
+.main {
+    display: flex;
+    margin-top: 17.5%;
+    /* margin-bottom: 5.7%; */
+}
+
+img {
+    width: 150px;
+}
+
+#image {
+    margin-right: 10%;
+}
+
+.main-info {
+    margin-right: 15%;
+    width: 500px;
+    margin-left: 8%;
+}
+
+
+
+#main-temp {
+    font-size: 120px;
+    font-weight: bold;
+}
+
+
+.fa-solid{
+    font-size: x-large;
+    width: 40px;
+    
+}
+
+td{
+    /* width: 0px !important; */
+    
+    height: 75px !important;   
+}
+
+.side-info{
+    width: 200px !important;
+    text-align: right !important;
+    font-size: x-large;
+    
+
+
+}
+
+.lll{
+    font-size: x-large;
+    
+    
+}
+
+
+
+.side {
+    /* margin-top: 5%; */
+    /* margin-left: 18%; */
+
+    color: #ffffff;
+    /* letter-spacing: 0.5px; */
+    /* outline: none;
+    border: none; */
+
+    background-color: rgba(255, 255, 255, 0.13);
+    /* position: absolute; */
+    /* transform: translate(-50%,-50%); */
+    /* top: 50%;
+    left: 50%; */
+    /* border-radius: 10px; */
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
+    padding: 10px 35px;
+}

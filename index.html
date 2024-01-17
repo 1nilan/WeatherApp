@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wearth App</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+
+    <div class="container-fluid ">
+        <div class="row">
+            <div class="col-md-8">
+ 
+                <div class="carousel  ">
+                    <h1 class="title"><b>Weather</b> World</h1>
+                    <div class="user-interface">
+                        <input type="searchTxt" id="location-input" placeholder="Enter location" />
+                        <button id="search-button">Search</button>
+                    </div>
+                </div>
+
+                <h1 id="clock">00:00:00</h1>
+
+                <div class="main">
+                    <div class="main-info">
+                        <h1 id="main-temp">00C</h1>
+                        <h3 id="main-city">Panadura</h3>
+                    </div>
+
+                    <div id="image">
+                        <img id="img" src="assets/cloudy (1).png" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 side">
+
+                <h1>Weather Details</h1>
+
+                <hr>
+
+
+                <table id="tbl">
+                    <tr>
+                        <td><i class="fa-solid fa-location-dot bbb" style="color: #ffffff;"></i></td>
+                        <td>
+                            <h3 class="lll">Location</h3>
+                        </td>
+                        <td>
+                            <h3 id="location" class="side-info">Colombo</h3>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><i class="fa-solid fa-temperature-low bbb" style="color: #ffffff;"></i></td>
+                        <td>
+                            <h3 class="lll">Temperature</h3>
+                        </td>
+                        <td>
+                            <h3 id="temperature" class="side-info">25</h3>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><i class="fa-solid fa-snowflake bbb" style="color: #ffffff;"></i></td>
+                        <td>
+                            <h3 class="lll"> Humidity</h3>
+                        </td>
+                        <td>
+                            <h3 id="humidity" class="side-info">33</h3>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><i class="fa-solid fa-wind bbb" style="color: #ffffff;"></i></td>
+                        <td>
+                            <h3 class="lll">Wind Speed</h3>
+                        </td>
+                        <td>
+                            <h3 id="speed" class="side-info">75.22</h3>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><i class="fa-solid fa-droplet bbb" style="color: #ffffff;"></i></td>
+                        <td>
+                            <h3 class="lll">Condition</h3>
+                        </td>
+                        <td>
+                            <h3 id="condition" class="side-info">Cloudy</h3>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><i class="fa-solid fa-map-location-dot bbb" style="color: #ffffff;"></i></td>
+                        <td>
+                            <h3 class="lll">Region</h3>
+                        </td>
+                        <td>
+                            <h3 id="region" class="side-info">Western</h3>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><i class="fa-solid fa-globe bbb" style="color: #ffffff;"></i> </td>
+                        <td>
+                            <h3 class="lll">Country</h3>
+                        </td>
+                        <td>
+                            <h3 id="country" class="side-info">Sri-Lanka</h3>
+                        </td>
+                    </tr>
+                </table>
+                
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"> </script>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
